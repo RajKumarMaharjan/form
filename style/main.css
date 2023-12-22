@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(237, 244, 241);
+}
+.registration{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 25%;
+    width: 30%;
+    padding: 20px;
+    background-color: gainsboro;
+    margin-inline: auto;
+    margin-top: 15%;
+    width: 45%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 3px gray;
+}
+.registration p{
+    padding-inline: 20%;
+}
+input{
+    width: 50%;
+}
+div{
+    margin: 10px;
+}
+h4{
+text-decoration: underline;
+}
+#check{
+width: 5%;
+}
+.personal_infromation .date {
+    width: 40%;
+    margin: auto;
+}
+.personal_infromation{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    border-radius: .3rem;
+    padding: 5px 10px;
+    background-color: azure;
+    &:hover{
+        background-color: gray;
+        color: #ffff;
+    }
+}
+
